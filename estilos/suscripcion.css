@@ -1,0 +1,359 @@
+body {
+    width: 100%;
+    background-image: radial-gradient(circle farthest-side at center bottom, rgb(0, 0, 0), #020202 130%);
+    overflow: hidden;
+}
+
+header{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+header img {
+    width: 70%;
+    margin: auto
+}
+
+h1 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5%;
+    text-align: center;
+}
+
+button {
+    background-color: #000000;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 76px;
+    margin-left: 42%;
+    width: 200px;
+}
+
+button a {
+    color: #FFF;
+    font-family: Nunito Sans; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+div {
+    margin-top: 15%;
+    box-sizing: border-box;
+    display: block;
+    width: 90%;
+
+}
+
+.above-fold {
+    position: relative;
+	height: 100vh;
+    width: 100%;
+}
+
+.hero-section {	
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	z-index: -1;
+}
+
+.hero-section img {
+    position: absolute;
+    opacity: 0.45;
+    margin: auto;
+    width: 130%;
+    top: -25%; 
+    right: -25%; 
+    bottom: -25%; 
+    left: -25%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 300px) and (min-width: 240px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 50%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 5.2em;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 25%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px) and (min-width: 300px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 50%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 8em;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 25%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 350px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 40%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 10em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 400px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 10.5em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 450px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 12em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) and (min-width: 500px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 13em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 550px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 14em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 600px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 15.5em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 650px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 20em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 700px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header { 
+        margin-top: 20%;
+        margin-left: -3%;
+    }
+
+    button {
+        height: 65px;
+        margin-left: 21em;
+        margin-top: 2.5em;
+        margin-bottom: 2em;
+        width: 150px;
+    }
+
+    div {
+        margin-top: 15%;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+}
+

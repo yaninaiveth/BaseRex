@@ -1,0 +1,6048 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.container-one, 
+.container-four,
+.footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.container-one, 
+.container-two, 
+.container-three,
+.container-four,
+.container-five,
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+}
+
+/* Menu */
+
+.background-black {
+    width: 100%;
+    background-color: #000;
+    height: 30%;
+}
+
+.main-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    align-items: end;
+    background-color: #000000;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+hr {
+    color: #ffffff;
+}
+
+
+nav {
+    display: block;
+}
+
+.menu-bar {
+    display: flex;
+    padding-right: 0.9em;
+    list-style: none;
+}
+
+.menu-bar, .menu-bar li, .menu-bar a {
+    color: #ffffff;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    display: block;
+    padding: 0 0.5em;
+    line-height: 3.6em;
+    transition: .5s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Estilo form */ 
+
+#form-susc1 {
+    margin-top: 8%;
+}
+
+label {
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 1.3em;
+}
+
+input {
+    padding: 0.5%;
+    border-radius: 3px;
+    margin-left: 1.2%;
+}
+
+.confirmar {
+    background-color: #000000;
+    border-radius: 40px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Nunito Sans; /* VER FUENTE QUIKSAND */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    height: 1.8em;
+    margin-left: 1%;
+    width: 2.5em;
+}
+
+#form-susc2 {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+/* Fin estilo form */
+
+.rectangle-3 {
+    background-color: #000;
+}
+
+.rectangle-3__container {
+    display: flex;
+}
+
+.rectanle-3__text {
+    margin-top: 10em;
+    margin-left: 4em;
+    width: 80%;
+}
+
+.rectangle-3__text__main-title {
+    /* DISEÑA CON RESIDUOS */
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.rectangle-3__text__main-p {
+    /* Estamos construyendo el sistema de simulación,
+    predicción y modelado 3D más avanzado del mundo
+    para crear productos ecológicos.*/
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.rectangle-3__container__p {
+    /* Obtenga actualizaciones sobre la
+    disponibilidad de servicios y noticias de
+    BaseRex en su área. */
+    color: #FFFFFF;
+    font-family: Nunito Sans; /* VER FUENTE QUIKSAND*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 28px;
+    margin-top: 5em;
+}
+
+.rectangle-3__container__btn {
+    background-color: #000000;
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Nunito Sans; /* VER FUENTE QUIKSAND*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5625em;
+    height: 76px;
+    margin-left: 0.5em;
+    margin-top: 4em;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 200px;
+}
+
+.image__abstract1, 
+.rectangle-4__container__img, 
+.rectangle-6__container__img,
+.rectangle-8__container__img {
+    width: 100%;
+}
+
+.rectangle-4__div {
+    margin-left: 5em;
+    margin-top: 6em;
+}
+
+.rectangle-4__h2 {
+    /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 0.7em;
+    text-align: left;
+ }
+
+ .rectangle-4__p {
+    /* Con un entorno CAD y un sistema basado en la 
+    reutilización de residuos, BaseRex ofrecerá diseño asistido 
+    combinado con un sistema de simulación y predicción del
+    comportamiento de múltiples compuestos que existen en 
+    matrices residuales para generar el desarrollo más
+    eficiente de ingredientes y productos funcionales donde
+    su elaboración ha sido desconfiable, costosa o 
+    completamente impensada. */ 
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+}
+
+.total-image {
+    display: grid;
+    background-color: #000;
+    grid-template-columns: 12fr;
+    grid-template-columns: 1;
+    margin-top: -0.5em;
+    padding-bottom: 1.5em;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+}
+
+.total-image__img {
+    width: 80%;
+    margin: auto;
+}
+
+.rectangle-5 {
+    margin-bottom: 4em;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.rectangle-5__h2 {
+    /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    text-align: left;
+}
+
+.rectangle-5__p {
+    /* En BaseRex podrás diseñar con los mejores residuos de  
+    acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+    una optimización de la geometría para utilizarlos. */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 72%;
+}
+
+.rectangle-5__container {
+    margin-top: 2em;
+}
+
+.rectangle-5__container__img {
+    width: 100%;
+}
+
+.rectangle-6 {
+    margin-left: 2em;
+    margin-top: 17.82em;
+}
+
+.rectangle-6__container__img {
+    width: 95%;
+    margin-bottom: 2.5em;
+    margin-left: 2em;
+}
+
+.rectangle-6__h2 {
+    /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 0.7em;
+    text-align: left;
+}
+
+.rectangle-6__p {
+    /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+    generativo y diseño paramétrico para que puedas crear,
+    probar cada detalle de un producto, pieza o ensamble
+    tridimensional, optimizar y documentarlo digitalmente. 
+    Reducción de pruebas físicas que ahorran tiempo y costo */
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    letter-spacing: 0em;
+    padding-bottom: 1em;
+    text-align: left;
+    width: 72%;
+}
+
+.rectangle-7 {
+    margin-bottom: 8em;
+    margin-left: 4.5em;
+    margin-top: 8em;
+}
+
+.rectangle-7__h2 {
+    /* MANTENIENDO LA REUTILIZACIÓN */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 0.7em;
+    text-align: left;
+}
+
+.rectangle-7__p {
+    /* Baserex nace para estar a la vanguardia de la mitigicación 
+    de basura, permitiendo diseñar innumerables usos 
+    alternativos con los residuos internos o externos de otras  
+    organizaciones de forma viable. */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    letter-spacing: 0em;
+    margin-top: 0.5em;
+    text-align: left;
+    width: 76%;
+}
+
+/* ESTILO CARD LADRILLO */
+
+.card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    border-radius:20px;
+    transition: 0.5s;
+    margin-top: 2.3em;
+    margin-bottom: 2.3em;
+}
+
+.card .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card .circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+
+.card:hover .circle:before {
+    background: #000;
+    clip-path: circle(400px at center);
+}
+
+.card img {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    left: 78%;
+    height: 350px;
+    scale: 1.2;
+    z-index: 9999;
+}
+
+.card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding:  20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility:hidden;
+}
+
+.card:hover .content {
+    left: 0;
+    opacity: 1;
+    visibility:visible;
+}
+
+.card .content h2 {
+    /* CREANDO CON CÁSCARA DE NUEZ */
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+
+.card .content p {
+    /*Casi el 50% de los frutos secos que se producen
+    en el mundo son nueces. Reduce el impacto ambiental 
+    producidos por sus desechos construyendo con ellos 
+    y beneficia a múltiples industrias. */
+    color: #fff;
+    font-family: Nunito Sans;
+}
+
+/*FIN ESTILO CARD LADRILLO */
+
+.rectangle-8 {
+    margin-left: 6em;
+    margin-top: 5em;
+}
+
+.rectangle-8__h2 {
+    /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-bottom: 0.7em;
+    text-align: left;
+}
+
+.rectangle-8__p {
+    /* Reincorporar residuos a los procesos productivos evita  
+    que toneladas de ellos contaminen el entorno de millones
+    de familias y animales e incrementará el nacimiento de
+    nuevas empresas de recolección, reciclaje y
+    comercialización de materia prima de manera considerable. Diseñar y fabricar con ayuda de BaseRex
+    abrirá una vía con mucho futuro, además de productos con
+    menos agua, emisión, materiales y energía. */
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 1.12em;
+    font-style: normal;
+    letter-spacing: 0em;
+    margin-top: 1.3em;
+    text-align: left;
+    width: 76.5%;
+}
+
+.footer {
+    margin-top: -1em;
+    position: relative;
+    z-index: 99;
+}
+
+.footer_ {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__div__btn {
+    background-color: #000000;
+    border-radius: 40px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Nunito Sans; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5625em;
+    height: 76px;
+    margin-left: 3em;
+    margin-top: 11em;
+    width: 200px;
+}
+
+.footer__container__p {
+    margin-left: 4em;
+    margin-top: 3em;
+    width: 72%;
+}
+
+.footer__container {
+    width: 100%;
+    margin-left: 4em;
+    margin-top: 1.5em;
+}
+
+.footer__container__img {
+    margin-left: 4.75em;
+    margin-top: 8em;
+    width: 70%;
+}
+
+.footer--img {
+    height: 65%;
+    margin-left: 12em;
+    padding-top: 10em;
+    width: 80%;
+}
+
+.footer--img__img {
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(20px);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 300px) and (min-width: 240px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1{
+        margin-top: 8%;
+    }
+    
+    label{
+        font-family:'Nunito Sans', sans-serif;
+        font-size: 1em;
+    }
+    
+    input{
+        width: 8.7em;
+    }
+    
+    .confirmar{
+        background-color: #000000;
+        border-radius: 40px;
+        color: #FFF;
+        cursor: pointer;
+        font-family: Nunito Sans; /* VER FUENTE QUIKSAND */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8em;
+        height: 2em;
+        width: 2.5em;
+    }
+
+    #form-susc2 {
+        margin-top: 8%;
+        margin-left: 12%;
+    }
+
+    /* Fin estilo form */
+
+    /* Menu */
+
+    .background-black{
+        width: 100%;
+        background-color: #000;
+        height: 30%;
+    }
+
+    .main-wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        background-color: #000;
+    }
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 999;
+        align-items: center;
+        background-color: #000000;
+    }
+
+    .nav-bar{
+        margin-left: 5%;
+    }
+
+    hr {
+        color: #ffffff;
+    }
+
+    /* Fin estilo nav */
+
+    .rectangle-3__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rectanle-3__text{
+        margin-top: 5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title{
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        text-align: center;
+        margin-left: 0.20em;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 1.6em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4__div {
+        margin-left: 1.3em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.4em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.3em;
+        text-align: center;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: 1.2em;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        padding-left: -1em;
+        padding-right: 0.5em;
+        text-align: left;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 0.3em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+        margin-left: 4px;
+    }
+    .card:hover {
+        height: 750px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 200px;
+        margin-left: 18px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 350px) and (min-width: 300px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    #form-susc1 {
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+    
+    label{
+        font-family:'Nunito Sans', sans-serif;
+        font-size: 1em;
+    }
+    
+    input {
+        width: 9em;
+    }
+    
+    .confirmar {
+        background-color: #000000;
+        border-radius: 40px;
+        color: #FFF;
+        cursor: pointer;
+        font-family: Nunito Sans; /* VER FUENTE QUIKSAND */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8em;
+        height: 2em;
+        margin-left: 1%;
+        width: 2.5em;
+    }
+
+    #form-susc2 {
+        margin-top: 8%;
+        margin-left: 15%;
+    }
+
+    /* Fin estilo form */
+
+    /* Menu */
+
+    .background-black {
+        width: 100%;
+        background-color: #000;
+        height: 30%;
+    }
+
+    .main-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        background-color: #000;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 999;
+        align-items: center;
+        background-color: #000000;
+    }
+
+    .nav-bar {
+        margin-left: 5%;
+    }
+
+    hr {
+        color: #ffffff;
+    }
+
+    /* Fin estilo nav */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 0.18em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 350px;
+        margin-left: 0.18em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 690px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 350px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 2%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 1.2em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 2em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        text-align: left;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.7em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 90%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        text-align: left;
+        width: 95%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 0.5em;
+        margin-right: 0.4em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin-left: 0.4em;
+    }
+    .card:hover {
+        height: 690px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 400px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 9%;
+    }
+
+    /* Fin estilo form */
+
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 1em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 350px;
+        margin-left: 1.5em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 690px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 450px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 22%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 1.3em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: -0.5em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 690px;
+    }
+
+    .card .content {
+        width: 80%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 550px) and (min-width: 500px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 28%;
+    }
+
+    #form-susc2 {
+        margin-left: 9%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 80%;
+        margin-left: 0.3em;
+        align-items: flex-start;
+        margin: 20px;
+    }
+    .card:hover {
+        height: 590px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 600px) and (min-width: 550px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 30%;
+    }
+
+    #form-susc2 {
+        margin-left: 9%;
+        margin-top: 7%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 5.8em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 80%;
+        margin-left: 0.18em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 690px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 650px) and (min-width: 600px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 32%;
+    }
+
+    #form-susc2 {
+        margin-left: 8%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 1em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 95%;
+        margin-left: 0.16em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 490px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 700px) and (min-width: 650px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 34%;
+    }
+
+    #form-susc2 {
+        margin-left: 7%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: 1em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 490px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 70%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 750px) and (min-width: 700px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 36%;
+    }
+
+    #form-susc2 {
+        margin-left: 7%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: 1em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 480px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 80%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 800px) and (min-width: 750px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 38%;
+    }
+
+    #form-susc2 {
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: 1em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 380px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        top: 88%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 850px) and (min-width: 800px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 38%;
+    }
+
+    #form-susc2 {
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: 1em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 335px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        scale: 0.9;
+        top: 80%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 900px) and (min-width: 850px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .container-five,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 38%;
+    }
+
+    #form-susc2 {
+        margin-left: 6%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 2.5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-top: -4em;
+        margin-left: 2.5em;
+    }
+
+    .card {
+        width: auto;
+        max-width: 90%;
+        margin-left: 1em;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover {
+        height: 330px;
+    }
+
+    .card .content {
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+
+    .card .content h2 {
+        font-size: 1.2em;
+    }
+
+    .card:hover img {
+        scale: 0.9;
+        top: 85%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 950px) and (min-width: 900px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 38%;
+    }
+
+    #form-susc2 {
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 3em;
+        margin-left: 2em;
+        margin-top: 6em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-left: 2.5em;
+    }
+
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+    .card:hover img{
+        scale: 0.9;
+        top: 78%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1000px) and (min-width: 950px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 38%;
+    }
+
+    #form-susc2 {
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-left: 2.5em;
+    }
+
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+    .card:hover img{
+        scale: 0.9;
+        top: 78%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1050px) and (min-width: 1000px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 44%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-left: 2.5em;
+    }
+
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+    .card:hover img{
+        scale: 0.9;
+        top: 78%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1050px) {
+    .container-one, 
+    .container-two, 
+    .container-three,
+    .container-four,
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /* Estilo form */
+
+    #form-susc1 {
+        margin-left: 45%;
+    }
+
+    /* Fin estilo form */
+
+    .rectanle-3__text {
+        margin-top: 3.5em;
+        margin-left: 1em;
+    }
+
+    .rectangle-3__text__main-title {
+        /* DISEÑA CON RESIDUOS */
+        font-size: 2.5em;
+        margin-left: 0.25em;
+        text-align: left;
+    }
+
+    .rectangle-3__text__main-p {
+        /* Estamos construyendo el sistema de simulación,
+        predicción y modelado 3D más avanzado del mundo
+        para crear productos ecológicos.*/
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .rectangle-3__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rectangle-3__container__p {
+        /* Obtenga actualizaciones sobre la
+        disponibilidad de servicios y noticias de
+        BaseRex en su área. */
+        font-size: 1em;
+        line-height: 28px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 3em;
+    }
+
+    .rectangle-3__container__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 50%;
+        margin-top: 2em;
+        width: 150px;
+    }
+
+    .rectangle-4 {
+        margin: auto;
+    }
+
+   .rectangle-4__div {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
+    
+    .rectangle-4__h2 {
+        /* LOGRA PRODUCTOS Y CUIDA EL MEDIO AMBIENTE AL MISMO TIEMPO */
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -1.2em;
+        padding: 10px;
+        text-align: center;
+     }
+    
+     .rectangle-4__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+        font-family: Nunito Sans;
+        font-size: 1em;
+        font-style: normal;
+        margin-bottom: 2em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-5 {
+        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-left: 1.3em;
+    }
+
+    .rectangle-5__p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    .rectangle-5__h2 {
+        /* DISEÑAR EL EQUILIBRIO INDUSTRIA-AMBIENTE */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-top: 0.7em;
+        text-align: left;
+    }
+
+    .rectangle-5__container {
+        margin-top: 0.7em;
+    }
+
+    .rectangle-6__container {
+        margin-left: -2.7em;
+    }
+
+    .rectangle-6 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-top: 1em;
+    }
+
+    .rectangle-6__h2 {
+        /* CREAR CON SISTEMAS DE DISEÑO AVANZADO */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.25em;
+        text-align: left;
+    }
+    
+    .rectangle-6__p {
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+        font-size: 1em;
+        font-style: normal;
+        letter-spacing: 0em;
+        margin-left: -0.3em;
+        text-align: left;
+        width: 95%;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 2em;
+        margin-top: 5em;
+    }
+
+    .rectangle-7__h2 {
+        /* MANTENIENDO LA REUTILIZACIÓN */
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+        margin-left: -0.35em;
+        text-align: left;
+    }
+
+    .rectangle-7__p {
+        /* Baserex nace para estar a la vanguardia de la mitigicación 
+        de basura, permitiendo diseñar innumerables usos 
+        alternativos con los residuos internos o externos de otras  
+        organizaciones de forma viable. */
+        font-size: 1em;
+        margin-left: -0.60em;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Estilo card */
+
+    .rectangle-card {
+        margin-left: 2.5em;
+    }
+
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+        margin: 10px;
+    }
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+        width: 100%;
+        left: 0;
+        padding: 30px;
+    }
+    .card:hover img{
+        scale: 0.9;
+        top: 78%;
+        left: 50%;
+        height: 300px;
+    }
+
+    .rectangle-8 {
+        margin-bottom: 3em;
+        margin-left: 1.8em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+    .rectangle-8__h2 {
+        /* RECONSTRUYENDO LA ECONOMÍA CIRCULAR */
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        text-align: left;
+    }
+
+    .rectangle-8__p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .footer {
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer_ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__div__btn {
+        font-size: 1.3em;
+        height: 65px;
+        margin-left: 2em;
+        margin-top: 3em;
+        width: 150px;
+    }
+    
+    .footer__container__p {
+        margin-left: 3em;
+        margin-top: 2em;
+        width: 70%;
+    }
+    
+    .footer__container {
+        width: 100%;
+        margin-left: 3em;
+        margin-top: 0.5em;
+    }
+    
+    .footer__container__img {
+        margin-left: 3em;
+        margin-top: 1em;
+        width: 70%;
+    }
+    
+    .footer--img {
+        height: 30%;
+        margin-left: 1em;
+        padding-top: 4em;
+        width: 100%;
+    }
+    
+    .footer--img__img {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 1150px) and (min-width: 1100px) {
+    .rectangle-3__container {
+        display: flex;
+        margin-top: -70px;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -5em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 11.5em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1150px) {
+    .rectangle-3__container {
+        display: flex;
+        margin-top: -70px;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -5em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 11.5em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 1200px) {
+    .rectangle-3__container {
+        display: flex;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -5em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 13em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 4em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1250px) {
+    .rectangle-3__container {
+        display: flex;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-3__text {
+        margin-top: 7.5em;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5 {
+        margin-top: 3.5em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -4em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 16.5em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 5em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1300px) {
+    .rectangle-3__container {
+        display: flex;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-3__text {
+        margin-top: 7.5em;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5 {
+        margin-top: 3.5em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -5em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 17em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 5em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+@media screen and (max-width: 1379px) and (min-width: 1350px) {
+    .rectangle-3__container {
+        display: flex;
+    }
+
+    .image {
+        margin-top: 100px;
+    }
+
+    .rectangle-3__text {
+        margin-top: 7.5em;
+    }
+
+    .rectangle-4__div {
+        margin-left: 4em;
+        margin-top: 2.75em;
+    }
+
+    .rectangle-4__p,
+    .rectangle-5__p, 
+    .rectangle-6__p, 
+    .rectangle-7__p,
+    .rectangle-8__p {
+        /* Con un entorno CAD y un sistema basado en la 
+        reutilización de residuos, BaseRex ofrecerá diseño asistido 
+        combinado con un sistema de simulación y predicción del
+        comportamiento de múltiples compuestos que existen en 
+        matrices residuales para generar el desarrollo más
+        eficiente de ingredientes y productos funcionales donde
+        su elaboración ha sido desconfiable, costosa o 
+        completamente impensada. */ 
+
+        /* En BaseRex podrás diseñar con los mejores residuos de  
+        acuerdo a las limitaciones de tu diseño, o al revés, hacer 
+        una optimización de la geometría para utilizarlos. */
+
+        /* Podrás iniciar tu proyecto con nuestros sistemas de diseño
+        generativo y diseño paramétrico para que puedas crear,
+        probar cada detalle de un producto, pieza o ensamble
+        tridimensional, optimizar y documentarlo digitalmente. 
+        Reducción de pruebas físicas que ahorran tiempo y costo */
+
+
+        font-size: 1.05em;
+    }
+
+    .rectangle-5 {
+        margin-top: 3.5em;
+    }
+
+    .rectangle-5__container {
+        margin-top: 3em;
+        margin-left: -5em;
+    }
+
+    .rectangle-6 {
+        margin-left: 2em;
+        margin-top: 17.8em;
+    }
+
+    .rectangle-7 {
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-top: 10.8em;
+    }
+
+    .card {
+        position: relative;
+        height: 320px;
+        margin-top: 6.5em;
+        margin-bottom: 1em;
+    }
+
+    .rectangle-8 {
+        margin-left: 3em;
+        margin-top: 5em;
+    }
+
+    .footer_{
+        margin-top: -8em;
+    }
+
+    footer {
+        margin-top: -2em;
+    }
+}
+
+
